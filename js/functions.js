@@ -141,7 +141,7 @@ jQuery(document).ready(function(){
 	/* ---------------------------------------------------------------------- */
 	if($('#kodeCountdown').length){
 		var austDay = new Date();
-		austDay = new Date(2016, 6-1, 5,12,10);
+		austDay = new Date(2016, 7-1, 7,15,45);
 		jQuery('#kodeCountdown').countdown({until: austDay});
 		jQuery('#year').text(austDay.getFullYear());
 	}
